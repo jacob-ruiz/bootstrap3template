@@ -8,8 +8,19 @@
     <link href="_/css/mystyles.css" rel="stylesheet" media="screen">
 
   </head>
-  <body>
-    <h1>Hello, world!</h1>
+  <body id="home">
+
+    <section class="container">
+      <div class="content row">
+        <?php include "_/components/php/header.php"; ?>
+        <section class="main col col-lg-8">
+
+        </section><!-- main -->
+        <section class="sidebar col col-lg-4">
+
+        </section><!-- sidebar -->
+      </div><!-- content -->
+    </section><!-- container -->
 
     <script src="_/js/bootstrap.js"></script>
     <script src="_/js/myscript.js"></script>
