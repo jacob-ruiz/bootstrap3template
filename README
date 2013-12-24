@@ -1,0 +1,9 @@
+Use this project folder as a starting point for any bootstrap project.
+
+Instructions for getting started:
+
+1. Open CodeKit
+2. Drag the project folder ‘bootstrap3template’ into the CodeKit Window
+3. Set the Output Paths for _myscript.js and _bootstrap.js (if you have trouble with this, checkout Ray Villalobos’ Bootstrap 3: Advanced Web Development course on Lynda.com, Ch.1 Lesson 6 & 7 
+
+http://www.lynda.com/sdk/Bootstrap-tutorials/Bootstrap-3-Advanced-Web-Development/124079-2.html
