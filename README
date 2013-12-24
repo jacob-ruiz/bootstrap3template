@@ -2,8 +2,64 @@ Use this project folder as a starting point for any bootstrap project.
 
 Instructions for getting started:
 
+SET UP CODE KIT PROCESS LESS FILES
+
 1. Open CodeKit
+
 2. Drag the project folder ‘bootstrap3template’ into the CodeKit Window
-3. Set the Output Paths for _myscript.js and _bootstrap.js (if you have trouble with this, checkout Ray Villalobos’ Bootstrap 3: Advanced Web Development course on Lynda.com, Ch.1 Lesson 6 & 7 
+
+3. Under 'Styles' make sure boostrap.less outputs to /_/components/css/bootstrap.css, and that the Output Style dropdown is set to 'Compressed', no need to click 'Compile', as this was already done in the process of setting up this project
+
+4. Select _mystyles.less and uncheck 'Do not compile directly'
+
+5. Right click _mystyles.less and select 'Set Output Path'. Choose the folder '_/css', and change the Output file name to 'mystyles.css'. (this is where you'll add your own style code)
+
+6. Still on _mystyles.less, set the 'Output Style' drowpdown to 'Compressed'.
+
+7. Click 'Compile'.
+
+SET UP CODE KIT TO MINIFY JAVASCRIPT FILES
+
+1. Select '/_/components/js/_myscript.js'
+
+2. Uncheck 'Do not compile directly'
+
+3. Right click, select 'Set output path', set it to /_/js/myscript.js (Remove the underscore)
+
+4. Set the 'Check Syntax With' dropdown to 'Nothing'
+
+5. Click 'Process'
+
+6. Repeat these steps for '_bootstrap.js'
+
+
+SET UP A LOCAL SERVER USING MAMP PRO
+
+1. Click the '+' in the bottom left
+2. Under the 'General' tab, choose a server name such as 's.project.com'
+3. Set the Port # to 80 (the second box in 'IP / Port')
+4. Choose your project folder as the Disk location 
+5. Click 'Apply'
+6. Click 'Start' at the top of the window
+
+OPEN YOUR BROWSER TO MAKE SURE EVERYTHING WORKS
+
+1. Go to the URL you created in Step #2 above (s.project.com)
+2. You should see the starting template with Bootstrap styling
+
+NOW YOU'RE READY TO BUILD AN AWESOME SITE!
+
+Tips:
+
+1. Make sure CodeKit is open while you work on your project.
+
+2. To add your own custom LESS, add your code in _/components/less/_mystyles.less
+
+3. Write your own JS in _myscript.js
+
+(Basically as long as you have done the CodeKit steps above, any files with '_' are the ones you type into, and CodeKit compresses those and outputs to the 'non-underscore' version automatically).
+
+If you are having problems setting up Code Kit, check out Ray Villalobos tutorial on Lynda.com at:
 
 http://www.lynda.com/sdk/Bootstrap-tutorials/Bootstrap-3-Advanced-Web-Development/124079-2.html
+
